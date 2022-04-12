@@ -10,7 +10,7 @@ Recriando a tela de login do orkut com HTML + CSS.
 
 ## Design
 
-[Layout created by Jamilson Ferreira](https://www.linkedin.com/in/jamilson-ferreira-509b5a1b5/)
+Layout created by [Jamilson Ferreira](https://www.linkedin.com/in/jamilson-ferreira-509b5a1b5/)
 
 ## 👩 Author
 
