@@ -1,0 +1,116 @@
+:root {
+  --green: #098229;
+  --white: #fff;
+  --gray-200: #eaeaea;
+  --gray-700: #353535;
+  --pink-500: #F22965;
+  --pink-550: #F229A2;
+  --pink-600: #ED2590;
+}
+
+* {
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-image: linear-gradient(45deg, var(--pink-500), var(--pink-550));
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+section {
+  background-color: var(--white);
+  border-radius: 20px;
+  height: auto;
+  padding: 50px;
+  width: 450px;
+}
+
+.login-form,
+.create-account,
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: var(--pink-600);
+  font-size: 22px;
+  font-weight: 300;
+  margin: 0 0 40px;
+  text-align: center;
+}
+
+img {
+  height: auto;
+  margin: 0 auto 30px;
+  width: 250px;
+}
+
+input {
+  background-color: var(--gray-200);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 12px;
+}
+
+input:focus {
+  border: 1px solid var(--pink-600);
+  box-shadow: 1px 1px 10px 1px var(--pink-600);
+}
+
+a {
+  color: var(--gray-700);
+  text-decoration: none;
+  text-align: right;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+.register-button,
+.login-button {
+  color: var(--white);
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 12px;
+  transition: filter 0.2s;
+}
+
+.login-button {
+  background-color: var(--pink-550);
+}
+
+.register-button:hover,
+.login-button:hover {
+  filter: brightness(0.9);
+}
+
+.create-account {
+  align-items: center;
+}
+
+.create-account p {
+  color: var(--gray-700);
+}
+
+.register-button {
+  background-color: var(--green);
+  width: 180px;
+}
